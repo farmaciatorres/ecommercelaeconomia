@@ -1,4 +1,4 @@
-import { MegaphoneIcon, XMarkIcon } from '@heroicons/react/24/outline'
+/* import { MegaphoneIcon, XMarkIcon } from '@heroicons/react/24/outline' */
 
 export default function Banner() {
   return (
@@ -7,7 +7,7 @@ export default function Banner() {
         <div className="flex flex-wrap items-center justify-between">
           <div className="flex w-0 flex-1 items-center">
             <span className="flex rounded-lg bg-blue-800 p-2">
-              <MegaphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
+           {/*    <MegaphoneIcon className="h-6 w-6 text-white" aria-hidden="true" /> */}
             </span>
             <p className="ml-3 truncate font-medium text-white">
               <span className="hidden md:inline">En FARMACIA TORRES tenemos todo lo que nesecitas para tu bienestar.</span>
@@ -27,7 +27,7 @@ export default function Banner() {
               className="-mr-1 flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
             >
               <span className="sr-only">Dismiss</span>
-              <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" />
+           {/*    <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" /> */}
             </button>
           </div>
         </div>
